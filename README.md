@@ -1,9 +1,8 @@
-# eslint-rules
+# eslint-plugin-security-rules
 
 Collection of various eslint-rules
 
 
 # How to use
-```
-eslint --reset -c config.json --rulesdir . [file.js] [dir]
-```
+
+eslint can use this repo as a plugin, follow documentation on their website for more info
