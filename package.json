@@ -1,7 +1,7 @@
 {
   "name": "eslint-rules",
   "version": "0.0.0",
-  "description": "",
+  "description": "Security focused rules",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -17,6 +17,12 @@
   "author": "Adam Baldwin",
   "license": "MIT",
   "dependencies": {
-    "safe-regex": "0.0.0"
-  }
+    "safe-regex": "0.0.0",
+    "eslint": ">=0.24.0"
+  },
+  "devDependencies": {
+    "eslint": ">=0.24.0",
+    "eslint-tester": ">=0.8.2",
+    "mocha": "^2.2.4"
+  },
 }
