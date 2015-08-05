@@ -1,6 +1,0 @@
-{
-    "rules": {
-        "no-unsafe-regex": 0,
-        "no-timing-attacks": 1
-    }
-}
